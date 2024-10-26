@@ -45,7 +45,7 @@
 
         function init() {
             const params = getQueryParams();
-            const username = params.username || "Гость"; // Имя пользователя или "Гость"
+            const username = params.username; // Имя пользователя или "Гость"
 
             document.getElementById("greeting").textContent = username;
         }
