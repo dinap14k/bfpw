@@ -157,7 +157,7 @@
 
 .u-section-2 .u-group-1 {
   min-height: 163px;
-  width: 361px;
+/*   width: 361px; */
   height: auto;
   margin: 30px auto 60px 0;
 }
@@ -249,7 +249,7 @@
   }
 
   .u-section-2 .u-group-1 {
-    width: 366px;
+    width: 90%;
     --radius: 10px;
     min-height: 110px;
     margin-top: 9px;
