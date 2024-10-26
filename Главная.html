@@ -31,27 +31,6 @@
 
 		
 	</script>
-
-	
-	<script>
-        function getQueryParams() {
-            const params = {};
-            window.location.search.substring(1).split("&").forEach(function (item) {
-                const [key, value] = item.split("=");
-                params[decodeURIComponent(key)] = decodeURIComponent(value);
-            });
-            return params;
-        }
-
-        function init() {
-            const params = getQueryParams();
-            const username = params.username; // Имя пользователя или "Гость"
-
-            document.getElementById("greeting").textContent = username;
-        }
-
-        window.onload = init; // Инициализируем при загрузке страницы
-    </script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Главная">
     <meta property="og:description" content="">
@@ -79,7 +58,7 @@
         <h4 class="u-align-center u-text u-text-default u-text-1">
 		<span class="u-file-icon u-icon u-text-white" data-href="#">
 		<img src="images/1659764-b436a06a.png" alt="">
-	</span>&nbsp;@name_user32133 <span id="greeting"></span>
+	</span>&nbsp;@name_user32133 <span id="username"></span>
         </h4>
       </div>
     </section>
