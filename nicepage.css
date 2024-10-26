@@ -18325,7 +18325,7 @@ p {
   text-align: left;
 }
 .u-text {
-  word-wrap: break-word;
+/*   word-wrap: break-word; */
   position: relative;
 }
 .u-word-break {
