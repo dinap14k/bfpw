@@ -18326,7 +18326,7 @@ p {
 }
 .u-text {
 /*   word-wrap: break-word; */
-  position: relative;
+/*   position: relative; */
 }
 .u-word-break {
   word-break: break-all;
