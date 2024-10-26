@@ -28,7 +28,7 @@
 	<script>
 		let tg = window.Telegram.WebApp;
 		tg.expand();
-		let USER = document.getElementById("user_name").value;
+		let USER = tg.initDataUnsafe.name.user.username;
 
 		
 	</script>
